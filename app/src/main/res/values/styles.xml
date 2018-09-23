@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyEditText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginRight">64dp</item>
+        <item name="android:layout_marginLeft">64dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="MyEditText.Email" parent="MyEditText">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:hint">@string/email</item>
+    </style>
+
+    <style name="MyEditText.Password" parent="MyEditText">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">@string/password</item>
+    </style>
+
+</resources>
